@@ -19,11 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
         Log.e("aaa","This Log is for test ...");
 
-        if ( a == 1){
-            Toast.makeText(MainActivity.this,"Hey ...",Toast.LENGTH_SHORT).show();
-        }else
-            MainActivity.this.finish();
-
 
     }
 }
